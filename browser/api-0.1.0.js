@@ -1,5 +1,5 @@
 
-var shamen = {
+var honcho = {
 
   base_url: null,
   site: null,
@@ -21,7 +21,7 @@ var shamen = {
 
   set_cookie: function( name, value, expires ) {
 
-    name = "shamen_" + name
+    name = "honcho_" + name
     var today = new Date(),
         path = '',
         secure = null;
@@ -41,7 +41,7 @@ var shamen = {
   },
 
   cookie: function(name) {
-    var cookie_name = 'shamen_' + name;
+    var cookie_name = 'honcho_' + name;
     var exists = RegExp(cookie_name+'=');
     if (exists.test(document.cookie)) {
       var re = RegExp('^' + cookie_name);
@@ -108,7 +108,7 @@ var shamen = {
      this.callbacks[key] = arguments[1];
     }
     var test_key_url = this.test_key_url('m', key)
-    this.script(test_key_url + '?jsonp=shamen.module_callback' )
+    this.script(test_key_url + '?jsonp=honcho.module_callback' )
   },
 
   module_callback: function(result) {

@@ -1,10 +1,10 @@
 {
   "author": "Greg Melton <massgripnosis@hotmail.com>",
-  "name": "shamen",
+  "name": "honcho",
   "description": "Library for tracking and administering Multivariate, A/B, and Bucket tests with Redis",
   "version": "0.1.0",
   "repository": {
-    "url": "http://github.com/grippy/shamen"
+    "url": "http://github.com/grippy/honcho"
   },
   "engines": {
     "node": "~0.6.7"

@@ -1,1 +1,1 @@
-module.exports = require('./lib/shamen');
+module.exports = require('./lib/honcho');
