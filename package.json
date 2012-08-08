@@ -1,0 +1,22 @@
+{
+  "author": "Greg Melton <massgripnosis@hotmail.com>",
+  "name": "shamen",
+  "description": "Library for tracking and administering Multivariate, A/B, and Bucket tests with Redis",
+  "version": "0.1.0",
+  "repository": {
+    "url": "http://github.com/grippy/shamen"
+  },
+  "engines": {
+    "node": "~0.6.7"
+  },
+  "dependencies": {
+    "async":             "0.1.22",
+    "redis":             "0.7.2",
+    "underscore":        "1.3.3"
+  },
+  "devDependencies": {
+    "uglify-js":         "1.3.0",
+    "mocha":             "1.0.x"
+  }
+
+}
