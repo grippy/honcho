@@ -3,7 +3,7 @@
 # Multivariate, A/B, Bucket Testing Library
   - This library is a big rewrite of my other library node-multivariate.
   - Uses Redis for all data storage.
-  - Same concepts; But is now a standalone library without needing to run a seperate http server.
+  - Same concepts; But is now a standalone library without needing to run a separate http server.
   - Exposes most of its functionality as middleware.
 
 ## Module
@@ -57,13 +57,13 @@ Use these to create a counter for almost anything.
 
 ## Middleware
    - Easy to configure and works great with Express/Connect
-   - Leverage your existing domain without having to setup and administer a seperate subdomain
+   - Leverage your existing domain without having to setup and administer a separate subdomain
 
 ## Raindance Server/Dashboard
 Say goodbye to droughts! Chats, graphs, and all that.
 
   - A standalone server for administering and charting tests.
-  - Also can be used as the server for module testing, event/bucket tracking and servering the browser api.
+  - Can also be used as the server for module testing, event/bucket tracking and servering the browser api.
 
 Coming soon!
 
