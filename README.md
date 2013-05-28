@@ -1,5 +1,3 @@
-[grippy - 08/07/2012] Just pushed the repo. Detting a few more things in order before this is ready.
-
 # Multivariate, A/B, Bucket Testing Library
   - This library is a big rewrite of my other library node-multivariate.
   - Uses Redis for all data storage.
@@ -59,13 +57,9 @@ Use these to create a counter for almost anything.
    - Easy to configure and works great with Express/Connect
    - Leverage your existing domain without having to setup and administer a separate subdomain
 
-## Raindance Server/Dashboard
-Say goodbye to droughts! Chats, graphs, and all that.
-
+## Honcho Server/Dashboard
   - A standalone server for administering and charting tests.
   - Can also be used as the server for module testing, event/bucket tracking and servering the browser api.
-
-Coming soon!
 
 ## Bot Filtering
 To avoid having bots influence the outcome of your tests, you'll want to filter them.
